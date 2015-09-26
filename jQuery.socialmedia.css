@@ -1,0 +1,71 @@
+﻿img.roundedAvatar {
+	border-radius: 50%; 
+	box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html { overflow-y: scroll; }
+
+body {
+  font-family: sans-serif;
+}
+
+.social-icon {
+    font-size: 4em;
+}
+
+.social-des {
+  font-size: 2em;
+  margin-top: 10px;
+  position: absolute;
+  margin-left: 8px;
+}
+
+.grid:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.grid-item {
+  width: 32.9%;
+  float: left;
+  min-height: 50px;
+  border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+  border: 2px dashed #999;
+  margin-bottom: 10px;
+}
+
+.grid-item > div {
+  padding: 10px;
+}
+
+.grid-item > div.twitter::after {
+  font-family: FontAwesome;
+  content: '\f099';
+  float: right;
+}
+
+ .grid-item > div.instagram::after {
+  font-family: FontAwesome;
+  content: '\f16d';
+  float: right;
+}
+
+.grid-item > div.facebook::after {
+  font-family: FontAwesome;
+  content: '\f230';
+  float: right;
+}
+ 
+.grid-item img {
+  display: block;
+  max-width: 100%;
+}

@@ -1,0 +1,6 @@
+c:\users\dominin\documents\visual studio 2013\Projects\HelloJS\HelloJS\bin\HelloJS.dll.config
+c:\users\dominin\documents\visual studio 2013\Projects\HelloJS\HelloJS\bin\HelloJS.dll
+c:\users\dominin\documents\visual studio 2013\Projects\HelloJS\HelloJS\bin\HelloJS.pdb
+c:\users\dominin\documents\visual studio 2013\Projects\HelloJS\HelloJS\obj\Debug\HelloJS.csprojResolveAssemblyReference.cache
+c:\users\dominin\documents\visual studio 2013\Projects\HelloJS\HelloJS\obj\Debug\HelloJS.dll
+c:\users\dominin\documents\visual studio 2013\Projects\HelloJS\HelloJS\obj\Debug\HelloJS.pdb

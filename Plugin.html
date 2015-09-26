@@ -1,0 +1,53 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>My social media accounts</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>  
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/hellojs/1.6.0/hello.all.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.1/masonry.pkgd.min.js"></script>
+  <script type="text/javascript" src="jQuery.socialmedia.js"></script> 
+  <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">    
+  <link href="jQuery.socialmedia.css" rel="stylesheet" />
+
+<script type='text/javascript'>
+
+    $(document).ready(function () {
+        $('#connect').on('click', function () {
+            $("#mySocialMedia").socialMedia({
+                twitter: {
+                    enabled: true,
+                    key: TWITTER_CLIENT_ID
+                },
+                facebook: {
+                    enabled: true,
+                    key: FACEBOOK_CLIENT_ID
+                },
+                instagram: {
+                    enabled: true,
+                    key: INSTAGRAM_CLIENT_ID
+                }
+            });
+        });
+        $('#fetch').on('click', function () {
+            $("#mySocialMedia").socialMedia('fetch');
+        });
+    });
+
+</script>
+
+
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>My social media accounts!</h1>
+        <button class="btn btn-primary" id="connect">Connect to socials</button>
+        <button class="btn btn-primary" id="fetch">Get data!</button>
+        <div id="mySocialMedia" style="margin-top: 20px"></div>
+    </div>    
+</body>
+
+</html>
+
